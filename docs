@@ -1,0 +1,14 @@
+1laravel install
+
+2. vue install in Backend folder
+
+3. then install tellwind in vue{
+    (https://v2.tailwindcss.com/docs/guides/vue-3-vite)
+    npm install -D tailwindcss postcss autoprefixer
+    npx tailwindcss init -p
+}
+4. change in telwind config and create src/index.css.
+
+5. install vuex {
+    npm install -s vuex@next
+}
