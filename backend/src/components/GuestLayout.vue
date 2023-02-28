@@ -15,9 +15,8 @@
     </div>
 </template>
 <script setup>
-const { title } = defineProps(
-    {
-        title: String
-    }
-)
+const { title } = defineProps({
+    title: String,
+    // eslint-disable-next-line prettier/prettier
+});
 </script>
