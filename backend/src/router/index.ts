@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from "vue-router";
 // import HomeView from '../views/HomeView.vue'
 import Dashboard from "../views/Dashboard.vue";
 import Login from "../views/Login.vue";
-import ResetPassword from "../views/Password/ResetPassword.vue";
-import SetPassword from "../views/Password/SetPassword.vue";
+import ResetPassword from "../views/ResetPassword.vue";
+import SetPassword from "../views/SetPassword.vue";
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
