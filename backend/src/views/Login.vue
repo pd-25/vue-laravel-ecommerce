@@ -45,9 +45,11 @@
                     >
                 </div>
                 <div class="text-sm">
-                   
-            <router-link to="/reset-password" class="font-medium text-indigo-600 hover:text-indigo-500">Forgot your password?</router-link>
-
+                    <router-link
+                        to="/reset-password"
+                        class="font-medium text-indigo-600 hover:text-indigo-500"
+                        >Forgot your password?</router-link
+                    >
                 </div>
             </div>
             <div>
@@ -73,6 +75,10 @@
 <script setup>
 import { LockClosedIcon } from "@heroicons/vue/20/solid";
 import GuestLayout from "../components/GuestLayout.vue";
+
+function login(){
+    console.log('Login')
+}
 </script>
 
 <style></style>

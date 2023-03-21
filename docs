@@ -12,3 +12,4 @@
 5. install vuex {
     npm install -s vuex@next
 }
+6. npm install -@headlessui/vue @heroicons/vue @tailwindcss/forms - to install javascript componenrt

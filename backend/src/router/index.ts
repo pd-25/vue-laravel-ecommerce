@@ -4,6 +4,7 @@ import Dashboard from "../views/Dashboard.vue";
 import Login from "../views/Login.vue";
 import ResetPassword from "../views/ResetPassword.vue";
 import SetPassword from "../views/SetPassword.vue";
+import IndexView from "../views/IndexView.vue";
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
@@ -17,6 +18,13 @@ const router = createRouter({
             name: "dashboard",
             component: Dashboard,
         },
+
+        {
+            path: "/index",
+            name: "index",
+            component: IndexView,
+        },
+        
         {
             path: "/login",
             name: "login",
